@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+}
+
+#rapper {
+  width: 100%;
+  margin: 0px auto;
+}
+
+.menu {
+  width: 100%;
+  background-color: #48B755;
+  position: sticky;
+  top: 0;
+  color: white;
+  
+}
+
+.nav-menu {
+  width: auto;
+  padding: 20px 0px;
+}
+
+nav {
+  text-align: center;
+}
+
+.nav-menu a {
+  text-decoration: none;
+  color: black;
+  margin: 0px 15px;
+}
+.nav-menu a:hover {
+  color: blue;
+}
+#actv{
+  text-decoration: underline;
+}
+
+.logo{
+  height: 40px;
+}
+footer{
+  height: 40px;
+  text-align: center;
+}
+header{
+  padding: 20px;
+  text-align: center;
+}
+.main{
+  
+  width: 100%;
+  display: flex;
+  flex-flow: row;
+}
+.left, .right{
+  
+  background-color: #55ACEE;
+  width: 20%;
+  text-align: center;
+  padding: 200px 0px;
+}
+.mid{
+  
+  width: 60%;
+}
+span{
+  font-size: 200%;
+  font-weight: bold;
+}
+.foot{
+  display: flex;
+  flex-flow: row;
+}
+.foot>div{
+  width: 50%;
+  text-align: center;
+  padding: 10px;
+}
+.top, .down{
+  display: flex;
+  flex-flow: row;
+}
+.t-left, .d-right{
+  background: red;
+  width: 50%;
+  padding: 100px 0px;
+  background-image: url(img/img2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.d-left, .t-right{
+  background: rgb(226, 12, 190);
+  width: 50%;
+  padding: 100px 0px;
+  background-image: url(img/img1.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.a-right{
+  text-align: justify;
+  padding: 15px;
+}
+.a-right>span{
+  font-size: 150%;
+}
+.c-right{
+  margin: 0 auto;
+}
+.a-nav-menu {
+  width: auto;
+  padding: 10px 0px;
+}
+
+nav {
+  text-align: center;
+}
+
+.a-nav-menu>a {
+  text-decoration: none;
+  color: black;
+  margin: 0px 15px;
+}
+.a-nav-menu>a:hover {
+  color: blue;
+}
+
+@media screen and (max-width: 420px)  {
+  .nav-menu{
+    font-size: 10px;
+  }
+}
